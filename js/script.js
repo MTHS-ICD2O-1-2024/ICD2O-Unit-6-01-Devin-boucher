@@ -6,7 +6,18 @@
 
 'use strict'
 
-// eslint-disable-next-line no-unused-vars
+/**
+ * Check servie worker.
+ */
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register("/ICS2O-PWA-Test/sw.js", {
+    scope: "/ICS2O-PWA-Test/",
+  })
+}
+
+/**
+ * This function displays discount.
+ */
 function checkNumber () {
   let age = parseFloat(document.getElementById('age').value)
   const day = document.getElementById('day').value

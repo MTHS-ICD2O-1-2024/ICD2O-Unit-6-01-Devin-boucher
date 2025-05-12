@@ -10,8 +10,8 @@
  * Check servie worker.
  */
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('/MTHS-ICD2O-1-2024/ICD2O-Unit-6-01-Devin-boucher', {
-    scope: '/MTHS-ICD2O-1-2024/ICD2O-Unit-6-01-Devin-boucher',
+  navigator.serviceWorker.register('/ICD2O-Unit-6-01-Devin-boucher', {
+    scope: '/ICD2O-Unit-6-01-Devin-boucher',
   })
 }
 
